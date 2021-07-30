@@ -147,7 +147,7 @@ p.count {
 .dropdown-menu {
   z-index: var(--z-fixed);
   max-width: 15rem;
-  right: -21px !important;
+  right: 0 !important;
   left: auto !important;
   min-width: 16rem;
   padding: 0;
@@ -172,14 +172,14 @@ img.user-note {
   color: var(--second-color);
   width: 100%;
   white-space: initial;
-  line-height: 13px;
+  line-height: 18px;
   border-bottom: 1px solid #f7f7f7;
-  padding: 10px;
+  align-items: center;
+  padding: 15px;
 }
 
 .message-item {
   display: flex;
-
 }
 .note-info-desmis {
   display: flex;
@@ -202,15 +202,111 @@ img.user-note {
   background: var(--mains-grident);
   color: var(--white-color);
 }
+p.status-link span {
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 !important;
+}
 p.note-name {
   font-size: 13px;
   font-weight: 500;
 }
 
-
 p.note-time {
   font-size: 11px;
 }
-.dp-main-menu a:last-child{
+.dp-main-menu a:last-child {
   border-bottom: 0;
+}
+
+/*================================message dropdown style===============*/
+
+img.sms-user {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+p.m-user-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+p.user-role {
+  font-size: 12px;
+  color: var(--main-color);
+}
+
+/*===========================profile style==============*/
+
+.media {
+  background: var(--main-color);
+  text-align: center;
+  padding-top: 10px;
+}
+
+img.img-fluid.mr-2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.media-body {
+  margin-top: 10px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.media-body h5 {
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+.media-body p {
+  font-size: 13px;
+  color: var(--white-color);
+  font-weight: 500;
+}
+a.dropdown-item a span {
+  color: var(--main-color);
+}
+
+.dp-main-menu a span {
+  color: var(--main-color);
+  padding-right: 8px;
+}
+
+/*==============SIDEBAR START  STYLE============*/
+
+.left-menu {
+  height: 100vh;
+  width: 240px;
+  position: fixed;
+  box-shadow: 3px -1px 19px 1px #efeeee;
+  overflow-y: scroll;
+  transition: 0.5s;
+  margin-top: 50px;
+  background: var(--white-color);
+}
+
+nav.animated {
+  position: relative;
+  /* width: 240px;*/
+}
+
+.left-menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.left-menu::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(180, 58, 112, 1) 0% rgba(232, 37, 170) 54%
+  );
 }
