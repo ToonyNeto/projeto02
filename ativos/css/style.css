@@ -1,0 +1,36 @@
+.content-wrapper {
+    margin-left: 240px;
+    margin-top: 65px;
+    transition: .5s;
+}
+.content-wrapper.hide{
+    margin-left: 0;
+}
+.top-chart-earn {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: -2px 3px 13px 0px #ddd6;
+
+}
+
+.last-month {
+    line-height: 20px;
+    text-align: center;
+}
+
+.last-month h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.last-month p {
+    font-size: 12px;
+    color: #777;
+}
+.earn{
+    margin:12px 0;
+}
+.earn h2{
+    font-size: 26px;
+    font-weight: 600;
+}

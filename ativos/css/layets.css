@@ -75,6 +75,9 @@ p.count {
   background: #fff;
   box-shadow: -1px 4px 20px 1px #f1f1f185;
 }
+.left-menu.hide{
+  width: 0;
+}
 
 header.header {
   justify-content: space-between;
@@ -290,7 +293,7 @@ a.dropdown-item a span {
   box-shadow: 3px -1px 19px 1px #efeeee;
   overflow-y: scroll;
   transition: 0.5s;
-  margin-top: 50px;
+  margin-top: -15px;
   background: var(--white-color);
 }
 
@@ -305,8 +308,48 @@ nav.animated {
 
 .left-menu::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: linear-gradient(
-    0deg,
-    rgba(180, 58, 112, 1) 0% rgba(232, 37, 170) 54%
-  );
+  background: #ec0671; 
+}
+
+ul#sidebar {
+  margin: 0;
+  padding: 0;
+}
+
+ul#sidebar li {
+  transition: .3s;
+  border-left: 5px solid #fff;
+}
+
+
+ul#sidebar li a {
+  display: block;
+  padding: 7px 15px;
+  transition: .2s;
+  font-size: 12px;
+  font-weight: 500;
+  color: #636263; 
+
+}
+
+ul#sidebar li a:hover {
+  color: var(--main-color);
+  background: #f7f7f7;
+}
+
+ul#sidebar li:hover {
+  border-left: 5px solid var(--main-color);
+}
+
+li.active {
+  border-left: 5px solid var(--main-color) !important;
+}
+
+li.active a {
+  color: var(--main-color) !important;
+  background: #f9f9f9;
+}
+ul#sidebar li a i {
+  padding-right: 7px;
+  font-size: 15px;
 }

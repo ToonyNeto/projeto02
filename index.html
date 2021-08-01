@@ -24,7 +24,7 @@
         <header class="header navbar navbar-expand-sm expand-header">
           <div class="header-left d-flex">
             <div class="logo">DevMonster</div>
-            <a href="" class="sidebarCollapse" data-placement="bottom">
+            <a href="#" class="sidebarCollapse" id="toggleSidebar" data-placement="bottom">
               <span class="fas fa-bars"></span>
             </a>
           </div>
@@ -65,7 +65,7 @@
                     <img src="ativos/img/copia-de-seguranca.png" alt="" class="user-note">
                     <div class="note-info-desmis">
                       <div class="user-notify-info">
-                        <p class="note-name">Helal Sent a File</p>
+                        <p class="note-name">Tony Sent a File</p>
                         <p class="note-time">25 min ago</p>
                       </div>
                       <p class="status-link"><span class="fas fa-times"></span></p>
@@ -85,7 +85,7 @@
                     <img src="ativos/img/copia-de-seguranca.png" alt="" class="user-note">
                     <div class="note-info-desmis">
                       <div class="user-notify-info">
-                        <p class="note-name">Helal Sent a File</p>
+                        <p class="note-name">Tony Sent a File</p>
                         <p class="note-time">25 min ago</p>
                       </div>
                       <p class="status-link"><span class="fas fa-times"></span></p>
@@ -210,68 +210,154 @@
         <div class="menubar-content">
           <nav class="animated bounceInDown">
             <ul id="sidebar">
-              <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+              <li class="active">
+                <a href="#"><i class="fas fa-home"></i>Dashboard</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-box-open"></i>Widgets</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fab fa-uikit"></i>Ui Elements</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-chart-bar"></i>Advance Ui</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fab fa-telegram-plane"></i>Form Elements</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-edit"></i>Editors</a>
+              </li>
+
+              <li class="sub-menu">
+                <a href="#"> <i class="fas fa-cogs"></i> Settings
+                <div class="fa fa-caret-down right"></div>
+              </a>
+              <ul class="left-menu-dp">
+                <li><a href=""><i class="fas fa-user-circle"></i>Account</a></li>
+                <li><a href=""><i class="fas fa-id-card"></i>Profile</a></li>
+                <li><a href=""><i class="fas fa-fingerprint"></i>Security &amp; Privacy</a></li>
+                <li><a href=""><i class="fas fa-key"></i>Password</a></li>
+                <li><a href=""><i class="fas fa-bell"></i>Notification</a></li>
+              </ul>
+              </li>
+              
+              <li>
+                <a href="#"><i class="fas fa-chart-bar"></i>Charts</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-table"></i>Tables</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-search"></i>Popups</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-bell"></i>Notification</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-icons"></i>Icons</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-map-marked-alt"></i>Maps</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-sad-cry"></i>Error Pages</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fab fa-pagelines"></i>General Pages</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fab fa-opencart"></i>E-commerce</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
+                <a href="#"><i class="fas fa-envelope"></i>E-mail</a>
               </li>
               <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
-              </li>
-              <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
-              </li>
-              <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
-              </li>
-              <li>
-                <a href=""><i class="fas fa-home"></i>Dashboard</a>
-              </li>
+                <a href="#"><i class="fas fa-calendar-alt"></i>calendar</a>
+                <li>
+                  <a href="#"><i class="fas fa-check-circle"></i>Todo List</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-envira"></i>Gallery</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-book"></i>Documentation</a>
+                </li>
+                <li class="sub-menu">
+                  <a href="#"> <i class="fas fa-cogs"></i> Settings
+                  <div class="fa fa-caret-down right"></div>
+                </a>
+                <ul class="left-menu-dp">
+                  <li>
+                    <a href=""><i class="fas fa-user-circle"></i>Account</a></li>
+                </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                </li>
              </ul>
           </nav>
         </div>
       </div>
       <!-- ---------------SIDEBAR END---------------- -->
+    
+    <div class="content-wrapper">
+      <section class="dashboard-top-sec">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="bg-white top-chart-earn">
+                <div class="row">
+                  <div class="col-sm-4 my-2 pe-0">
+                    <div class="last-month">
+                      <h5>Dashboard</h5>
+                      <p>Overview of Latest Month</p>
+                      <div class="earn">
+                        <h2>$3367.98</h2>                          
+                        <p>Current Month Sales</p>
+                      </div>
+                      <div class="sale m-3">
+                        <h2>95</h2>
+                        <p>Current month Sales</p>
+
+                      </div>
+                      <a href="" class="di-btn purple-gradient">Last Month Summary</a>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-sm-8 my-2 ps-0">
+                    <div class="classic-tabs">
+                      <!-- ------Nav tabs===== -->
+                      <div class="tabs-wrapper">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true">Week</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false">Month</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false">Year</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">Week</div>
+                          <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">Month</div>
+                          <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">Year</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
     </div>
 
     <script src="ativos/js/jquery.min.js"></script>
