@@ -17,3 +17,9 @@ $(document).ready(function(){
         $(".content-wrapper").toggleClass("hide");
     });
 });
+
+// =============order show data table===========
+
+$(document).ready( function () {
+    $('#example').DataTable();
+} );
