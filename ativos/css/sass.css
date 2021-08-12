@@ -131,7 +131,7 @@ table.table {
   background: var(--main-color);
 }
 
-.bg-clc {
+.bg-clb {
   background: linear-gradient(
     121deg,
     rgb(92 26 195) 25%,
@@ -145,7 +145,7 @@ table.table {
     rgb(25 97 206/95%) 100%
   );
 }
-.bg-clc {
+.bg-cld {
   background: linear-gradient(
     121deg,
     rgb(232 202 53) 25%,

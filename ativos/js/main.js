@@ -21,5 +21,5 @@ $(document).ready(function(){
 // =============order show data table===========
 
 $(document).ready( function () {
-    $('#example').DataTable();
+    $('#order-table').DataTable();
 } );

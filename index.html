@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="ativos/css/chart/apexcharts.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="ativos/css/data-table/jquery.dataTables.css">
     <link rel="stylesheet" href="ativos/css/sass.css" />
     <link rel="stylesheet" href="ativos/css/layets.css" />
     <link rel="stylesheet" href="ativos/css/style.css" />
@@ -689,7 +689,7 @@
                     <p class="order-ac-title">Order Status</p>
 
                     <div class="data-table-section table-responsive">
-                      <table id="example" class="table table-striped" style="width:100%">
+                      <table id="order-table" class="table table-striped" style="width:100%">
                         <thead>
                             <tr>
                                 <th>Name</th>
@@ -700,14 +700,17 @@
                                 <th>Salary</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="order-view-tb">
                             <tr>
                                 <td>Tiger Nixon</td>
                                 <td>System Architect</td>
                                 <td>Edinburgh</td>
                                 <td>61</td>
                                 <td>2011/04/25</td>
-                                <td>$320,800</td>
+                                <td>
+
+                                  <a href="" class="status-tb-btn bg-cla">Sucess</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Garrett Winters</td>
@@ -715,7 +718,9 @@
                                 <td>Tokyo</td>
                                 <td>63</td>
                                 <td>2011/07/25</td>
-                                <td>$170,750</td>
+                                <td>
+                                  <a href="" class="status-tb-btn bg-clb">Open</a>
+                               </td>
                             </tr>
                             <tr>
                                 <td>Ashton Cox</td>
@@ -723,7 +728,9 @@
                                 <td>San Francisco</td>
                                 <td>66</td>
                                 <td>2009/01/12</td>
-                                <td>$86,000</td>
+                                <td>
+                                  <a href="" class="status-tb-btn bg-clc">On Hold</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Cedric Kelly</td>
@@ -731,7 +738,10 @@
                                 <td>Edinburgh</td>
                                 <td>22</td>
                                 <td>2012/03/29</td>
-                                <td>$433,060</td>
+                                <td>
+                                  
+                                  <a href="" class="status-tb-btn bg-cld">Checked</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Airi Satou</td>
@@ -739,19 +749,21 @@
                                 <td>Tokyo</td>
                                 <td>33</td>
                                 <td>2008/11/28</td>
-                                <td>$162,700</td>
+                                <td>
+                                  <a href="" class="status-tb-btn bg-cla">Process</a>
+                                </td>
                             </tr>
-                        </tbody>
-                        <tfoot>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
-                            </tr>
-                        </tfoot>
+                              <td>Airi Satou</td>
+                              <td>Accountant</td>
+                              <td>Tokyo</td>
+                              <td>33</td>
+                              <td>2008/11/28</td>
+                              <td>
+                                <a href="" class="status-tb-btn bg-clb">Open</a>
+                              </td>
+                          </tr>
+                        </tbody>
                     </table>
                     </div>
                   </div>
@@ -766,7 +778,7 @@
 
     <script src="ativos/js/jquery.min.js"></script>
     <script src="ativos/js/bootstrap/bootstrap.bundle.min.js"></script>    
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="ativos/js/data-table/jquery.dataTables.js"></script>
     <script src="ativos/js/chart/apexcharts.min.js"></script>
     <script src="ativos/js/chart/chart.js"></script>
     <script src="ativos/js/main.js"></script>
