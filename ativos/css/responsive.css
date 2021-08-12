@@ -29,3 +29,13 @@
 
     }
 }
+@media (max-whidth: 992px){
+.top-chart-earn{
+    margin-top: 10px 0;
+}
+}
+@media (max-whidth: 540px){
+    .logo{
+        display: none;
+    }
+}
